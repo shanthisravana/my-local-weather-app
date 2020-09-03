@@ -6,6 +6,7 @@ import { ICurrentWeather} from '../interfaces';
 import { map } from 'rxjs/operators';
 
 
+
 interface ICurrentWeatherData {
   weather: [{
     description: string,
@@ -24,6 +25,7 @@ interface ICurrentWeatherData {
 @Injectable({
   providedIn: 'root'
 })
+
 
 export class WeatherService {
 
@@ -61,4 +63,8 @@ export class WeatherService {
   private convertKelvinToFahrenheit(kelvin:number): number {
     return kelvin * 9/5 - 459.67
   }
+
+
+
+
 }

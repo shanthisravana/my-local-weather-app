@@ -1,6 +1,7 @@
 # MyLocalWeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+This project is created by following the book 'Angular for Enterprise-Ready Web Applications' by Doguhan Uluca.
 
 ## Development server
 
